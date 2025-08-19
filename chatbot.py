@@ -162,7 +162,7 @@ def call_gemini_api(prompt, chat_history, customer_context):
     except Exception as e:
         return f"I'm currently experiencing technical difficulties. Please try again later. (Error: {str(e)})"
 
-def call_ollama_api(prompt, chat_history, customer_context, model="llama3.2:3b"):
+def call_ollama_api(prompt, chat_history, customer_context, model="gemma3:latest"):
     """Call local Ollama API for chat response"""
     try:
         # Prepare the conversation
