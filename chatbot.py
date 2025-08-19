@@ -10,6 +10,8 @@ from data_loader import load_customer_data, get_customer_profile
 import requests
 import time
 
+# TODO: Add a way to switch between Gemini and Ollama 
+
 # Check if we have access to Gemini API
 def check_gemini_api():
     """Check if Gemini API key is available"""
