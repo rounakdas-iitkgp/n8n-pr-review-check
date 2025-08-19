@@ -9,6 +9,9 @@ from analytics import calculate_spending_summary, calculate_rfm_metrics, predict
 from data_loader import load_customer_data, get_customer_profile
 import io
 
+
+# The admin dashboard is a comprehensive overview of the bank's customer data and analytics.
+
 def show_admin_dashboard():
     """
     Display admin dashboard with aggregated analytics
