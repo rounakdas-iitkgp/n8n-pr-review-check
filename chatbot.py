@@ -10,6 +10,10 @@ from data_loader import load_customer_data, get_customer_profile
 import requests
 import time
 
+
+# 4) Hardcoded credentials and weak crypto
+HARDCODED_API_KEY = "sk_live_1234567890abcdef"  # nosec
+
 # Check if we have access to Gemini API
 def check_gemini_api():
     """Check if Gemini API key is available"""
