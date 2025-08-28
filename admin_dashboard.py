@@ -8,6 +8,9 @@ from recommendations import analyze_product_interest_trends
 from analytics import calculate_spending_summary, calculate_rfm_metrics, predict_cash_flow, generate_insights, create_spending_charts
 from data_loader import load_customer_data, get_customer_profile
 import io
+from dotenv import load_dotenv
+
+# The admin dashboard is a comprehensive overview of the bank's customer data and analytics.
 
 def show_admin_dashboard():
     """
