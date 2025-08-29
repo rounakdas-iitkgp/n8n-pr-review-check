@@ -9,6 +9,13 @@ from recommendations import generate_product_recommendations
 from data_loader import load_customer_data, get_customer_profile
 import requests
 import time
+from dotenv import load_dotenv # for loading environment variables from .env file
+
+from streamlit_chat import message # for chatbot interface
+
+
+# 4) Hardcoded credentials and weak crypto
+HARDCODED_API_KEY = "sk_live_1234567890abcdef"  # nosec
 
 # Check if we have access to Gemini API
 def check_gemini_api():
