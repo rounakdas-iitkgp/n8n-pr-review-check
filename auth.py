@@ -1,6 +1,7 @@
 import streamlit as st
 import os
 from data_loader import get_available_customers
+from dotenv import load_dotenv # for loading environment variables from .env file
 
 def authenticate_user(username, password):
     """
