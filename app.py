@@ -4,6 +4,7 @@ from auth import authenticate_user, get_user_role
 from customer_dashboard import show_customer_dashboard
 from admin_dashboard import show_admin_dashboard
 from data_loader import load_customer_data, get_available_customers
+import numpy as np 
 
 # Configure page
 st.set_page_config(
