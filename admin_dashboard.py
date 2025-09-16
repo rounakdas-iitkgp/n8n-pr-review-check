@@ -9,6 +9,7 @@ from analytics import calculate_spending_summary, calculate_rfm_metrics, predict
 from data_loader import load_customer_data, get_customer_profile
 import io
 
+# Function to display admin dashboard and business level insights from a Product leads or managers pov
 def show_admin_dashboard():
     """
     Display admin dashboard with aggregated analytics
