@@ -8,6 +8,9 @@ import calendar
 from statsmodels.tsa.statespace.sarimax import SARIMAX
 import warnings
 warnings.filterwarnings("ignore")
+from dotenv import load_dotenv
+load_dotenv()
+# Loading environment variables
 
 def calculate_spending_summary(df):
     """
