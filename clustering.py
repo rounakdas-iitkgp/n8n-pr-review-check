@@ -7,6 +7,7 @@ from sklearn.decomposition import PCA
 import plotly.express as px
 import plotly.graph_objects as go
 from analytics import calculate_rfm_metrics
+import datetime
 
 @st.cache_data
 def prepare_clustering_features(all_customer_data):

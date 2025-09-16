@@ -2,10 +2,14 @@ from manimlib import *
 import numpy as np
 import pandas as pd
 from datetime import datetime, timedelta
+from dotenv import load_dotenv
+load_dotenv()
+# Loading environment variables
+
 
 class FinancialAssistantWorkflow(Scene):
     def construct(self):
-        # Title
+        # This is a constructor function which is defining the full pipleline of how the financial-assistant app will work from start to end with an animation
         title = Text("Financial Assistant & Budget Insights", font_size=48, color=BLUE)
         subtitle = Text("Complete Workflow Animation", font_size=24, color=GREY)
         VGroup(title, subtitle).arrange(DOWN, buff=0.5, aligned_edge=DOWN)
