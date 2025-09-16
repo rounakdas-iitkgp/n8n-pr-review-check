@@ -1,6 +1,12 @@
 import streamlit as st
 import os
 from data_loader import get_available_customers
+import pandas as pd
+import logging
+import hashlib
+# Configure logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 def authenticate_user(username, password):
     """
